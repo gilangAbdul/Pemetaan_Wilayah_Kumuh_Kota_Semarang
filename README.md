@@ -1,9 +1,9 @@
 # Pemanfaatan Data Citra Satelit dan Point of Interest (POI) OpenStreetMap dengan Machine Learning dalam Pemetaan Wilayah Kumuh
 
-# Abstrak
+## Abstrak
 Pemetaan wilayah kumuh dibutuhkan untuk mengatasi dan mengevaluasi pembangunan dan tata kota. Identifikasi wilayah kumuh konvensional dengan menggunakan survei lapangan selama ini memiliki banyak kekurangan, antara lain waktu pelaksanaan yang lama, dan pembaruan data yang lama. Penelitian ini bertujuan untuk memanfaatkan big data geospasial menggunakan data citra satelit dan analisis Point Of Interest (POI) OpenStreetMap dalam mengidentifikasi wilayah kumuh di Kota Semarang. Pengklasifikasian kawasan wilayah kumuh dilakukan dengan permodelan machine learning  menggunakan tiga algoritma Decision Tree, Random Forest, dan XG-Boost. Hasil penelitian menunjukkan model klasifikasi menggunakan fitur big data geospasial dapat mengklasifikasikan wilayah kumuh dengan akurat. Algoritma XG-Boost menunjukkan performa model terbaik dari model lainnya pada metrik evaluasi F1-Score sebesar 0,933 pada data testing. Selain itu fitur Water Treatment Distance menjadi fitur paling berpengaruh pada model klasifikasi yang memiliki hubungan positif dengan kekumuhan wilayah. Hasil pemetaan pada dashboard dari tahun 2021 – 2024 terjadi penurunan wilayah kumuh di Kota Semarang berdasarkan pemetaan pada model klasifikasi wilayah kumuh yang dihasilkan.
 
-# Informasi Running Code
+## Informasi Running Code
 ### Pengolahan Data Citra
 1. Code Program mulai dari pengambilan data citra menggunakan library Earth Engine pada Python
 2. File .tiff pada setiap index tersedia pada folder citra
